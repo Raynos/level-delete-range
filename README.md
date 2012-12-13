@@ -1,5 +1,7 @@
 # level-delete-range
 
+[![build status](https://secure.travis-ci.org/Raynos/level-delete-range.png)](http://travis-ci.org/Raynos/level-delete-range)
+
 [![browser support](http://ci.testling.com/Raynos/level-delete-range.png)](http://ci.testling.com/Raynos/level-delete-range)
 
 Delete a range of keys in leveldb
