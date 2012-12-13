@@ -25,6 +25,13 @@
     "after": "~0.6.0",
     "tape": "~0.1.1"
   },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": {
+      "firefox": [ 15, "nightly" ],
+      "chrome": [ 22, "canary" ]
+    }
+  }
   "licenses": [
     {
       "type": "MIT",
