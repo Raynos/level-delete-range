@@ -21,15 +21,21 @@
   },
   "devDependencies": {
     "write-stream": "~0.4.3",
-    "levelidb": "~0.2.4",
+    "levelidb": "~0.2.5",
     "after": "~0.6.0",
     "tape": "~0.1.1"
   },
   "testling": {
     "files": "test/*.js",
     "browsers": {
-      "firefox": [ 15, "nightly" ],
-      "chrome": [ 22, "canary" ]
+      "firefox": [
+        15,
+        "nightly"
+      ],
+      "chrome": [
+        22,
+        "canary"
+      ]
     }
   },
   "licenses": [
