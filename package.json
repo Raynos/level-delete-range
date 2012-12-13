@@ -31,7 +31,7 @@
       "firefox": [ 15, "nightly" ],
       "chrome": [ 22, "canary" ]
     }
-  }
+  },
   "licenses": [
     {
       "type": "MIT",
