@@ -1,0 +1,37 @@
+{
+  "name": "level-delete-range",
+  "version": "0.1.0",
+  "description": "Delete a range of keys in leveldb",
+  "keywords": [],
+  "author": "Raynos <raynos2@gmail.com>",
+  "repository": "git://github.com/Raynos/level-delete-range.git",
+  "main": "index",
+  "homepage": "https://github.com/Raynos/level-delete-range",
+  "contributors": [
+    {
+      "name": "Jake Verbaten"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/Raynos/level-delete-range/issues",
+    "email": "raynos2@gmail.com"
+  },
+  "dependencies": {
+    "end-stream": "~0.1.0"
+  },
+  "devDependencies": {
+    "write-stream": "~0.4.3",
+    "levelidb": "~0.2.4",
+    "after": "~0.6.0",
+    "tape": "~0.1.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/Raynos/level-delete-range/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "test": "node ./test"
+  }
+}
