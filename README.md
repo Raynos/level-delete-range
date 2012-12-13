@@ -43,4 +43,3 @@ db.put("foo:3", { foo: "3" }, next)
  - Raynos
 
 ## MIT Licenced
-
