@@ -6,7 +6,7 @@ function deleteRange(db, options, callback) {
     options = options || {}
     callback = callback || noop
 
-    var stream = db.keyStream(options)
+    var stream = db.createKeyStream(options)
 
     stream.pipe(EndStream(function (key, callback) {
         db.del(key, callback)
