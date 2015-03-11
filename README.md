@@ -22,7 +22,7 @@ var next = after(3, function () {
         start: "foo:"
         , end: "foo;"
     }, function (err) {
-        db.readStream()
+        db.createReadStream()
             .pipe(toArray(function (list) {
                 console.log("list", list)
             }))
